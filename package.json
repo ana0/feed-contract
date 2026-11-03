@@ -1,0 +1,26 @@
+{
+  "name": "feed-contract",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ERC-721 contract for FEED by Sarah Friend, with on-chain JSON metadata.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "preview": "hardhat run scripts/preview.ts",
+    "preflight": "hardhat run scripts/preflight.ts",
+    "deploy:sepolia": "hardhat ignition deploy ignition/modules/Feed.ts --network sepolia --verify",
+    "deploy:mainnet": "npm run preflight && hardhat ignition deploy ignition/modules/Feed.ts --network mainnet --verify"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "@types/node": "^26.6.6",
+    "hardhat": "^3.21.2",
+    "typescript": "^7.0.2",
+    "viem": "^2.57.16"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.6.1"
+  }
+}
