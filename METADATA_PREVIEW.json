@@ -3,8 +3,8 @@
     "name": "FEED",
     "created_by": "Sarah Friend",
     "description": "FEED is an artwork by Sarah Friend commissioned for the Rhizome 30th Anniversary Fundraiser WEBSITES WEBSITES WEBSITES\n\nYou are an infinitely-hungry monster trying to digest the entire Internet, one headless browser session at a time. Use WASD or the arrow keys to zoom around the screen as quickly as possible. Your goal is to eat everything before the time runs out and without landing on any CAPTCHAs, err, we mean bombs.\n\nWEBSITES WEBSITES WEBSITES is a collaboration between ARTXCODE and Rhizome, and curated by LAN Party (Benna Kim and Benoit Tokyo).\n\nGood luck, hungry wanderer. The Internet is vast and incompletely mapped. Your quest will be long, dangerous, maybe impossible. We must imagine Sisyphus happy. Bon appetit",
-    "image": "https://isthisa.com/ipfs/PLACEHOLDER_IMAGE_CID/PLACEHOLDER_IMAGE_FILENAME",
-    "animation_url": "https://isthisa.com/ipfs/PLACEHOLDER_VIDEO_CID/PLACEHOLDER_VIDEO_FILENAME",
+    "image": "https://isthisa.computer/ipfs/QmU7K5bq87o8SQoEa9KHVhw2VNeJcwuxVatbFNM9z7htCR/Feed.jpg",
+    "animation_url": "https://isthisa.computer/ipfs/QmZAhtBC47TGX71smGeBceq5x3ABonriJeied1B2jPHuEw/Feed.mp4",
     "external_url": "https://feed.isthisa.com",
     "attributes": [
       {
@@ -32,7 +32,7 @@
   "contractURI": {
     "name": "FEED",
     "description": "FEED is an artwork by Sarah Friend commissioned for the Rhizome 30th Anniversary Fundraiser WEBSITES WEBSITES WEBSITES",
-    "image": "https://isthisa.com/ipfs/PLACEHOLDER_IMAGE_CID/PLACEHOLDER_IMAGE_FILENAME",
+    "image": "https://isthisa.computer/ipfs/QmU7K5bq87o8SQoEa9KHVhw2VNeJcwuxVatbFNM9z7htCR/Feed.jpg",
     "external_link": "https://feed.isthisa.com",
     "seller_fee_basis_points": 500,
     "fee_recipient": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"

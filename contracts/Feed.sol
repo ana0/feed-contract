@@ -31,8 +31,8 @@ contract Feed is ERC721, ERC2981, Ownable, IERC4906 {
     string private constant SOURCE_COMMIT = "9be8863dc8541e4014e8039c39566736bcdc79ec";
 
     /// Appended to <gateway>/ipfs/. Fill in as <cid>/<filename> after pinning.
-    string private constant IMAGE_PATH = "PLACEHOLDER_IMAGE_CID/PLACEHOLDER_IMAGE_FILENAME";
-    string private constant VIDEO_PATH = "PLACEHOLDER_VIDEO_CID/PLACEHOLDER_VIDEO_FILENAME";
+    string private constant IMAGE_PATH = "QmU7K5bq87o8SQoEa9KHVhw2VNeJcwuxVatbFNM9z7htCR/Feed.jpg";
+    string private constant VIDEO_PATH = "QmZAhtBC47TGX71smGeBceq5x3ABonriJeied1B2jPHuEw/Feed.mp4";
 
     string private constant DESCRIPTION_INTRO =
         "FEED is an artwork by Sarah Friend commissioned for the Rhizome 30th Anniversary Fundraiser WEBSITES WEBSITES WEBSITES";

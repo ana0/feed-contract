@@ -1,6 +1,6 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-export const GATEWAY = "https://isthisa.com";
+export const GATEWAY = "https://isthisa.computer";
 export const EXTERNAL_URL = "https://feed.isthisa.com";
 export const ROYALTY_BPS = 500n; // 5%
 

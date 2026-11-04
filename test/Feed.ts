@@ -3,7 +3,7 @@ import { before, describe, it } from "node:test";
 import { network } from "hardhat";
 import { getAddress } from "viem";
 
-const GATEWAY = "https://isthisa.com";
+const GATEWAY = "https://isthisa.computer";
 const EXTERNAL_URL = "https://feed.isthisa.com";
 
 const decode = (uri: string) => {
@@ -47,8 +47,8 @@ describe("Feed", () => {
       const token = decode(await feed.read.tokenURI([1n]));
       assert.equal(token.name, "FEED");
       assert.equal(token.created_by, "Sarah Friend");
-      assert.ok(token.image.startsWith("https://isthisa.com/ipfs/"));
-      assert.ok(token.animation_url.startsWith("https://isthisa.com/ipfs/"));
+      assert.ok(token.image.startsWith("https://isthisa.computer/ipfs/"));
+      assert.ok(token.animation_url.startsWith("https://isthisa.computer/ipfs/"));
       assert.equal(token.external_url, EXTERNAL_URL);
       assert.match(token.description, /^FEED is an artwork by Sarah Friend/);
       assert.equal(token.description.split("\n\n").length, 4);
